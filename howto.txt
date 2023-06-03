@@ -1,0 +1,29 @@
+______ github
+::set correct remote branch: git branch --set-upstream-to=origin/master master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
