@@ -1,5 +1,7 @@
 
 #%%
+a = 23
+
 def f1(a,b):
   return a+b
 
@@ -11,6 +13,7 @@ def f2():
     print('false')
   else:
     print('neither!!!')
+
 
 print('hallo')
 print(f1(12,13))
@@ -24,3 +27,5 @@ print(f1(12,13))
 
 
 
+
+# %%
