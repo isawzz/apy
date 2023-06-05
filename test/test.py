@@ -1,5 +1,5 @@
+import numpy as np
 
-#%%
 a = 23
 
 def f1(a,b):
@@ -28,4 +28,4 @@ print(f1(12,13))
 
 
 
-# %%
+
