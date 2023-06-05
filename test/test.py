@@ -8,9 +8,9 @@ def f1(a,b):
 
 def f2():
   print('das ist mit ein raetsel warum das nicht geht!!!')
-  if (True):
+  if (a == 23):
     print('true')
-  elif (23 == 23):
+  elif (a < 23):
     print('false')
   else:
     print('neither!!!')
