@@ -14,9 +14,11 @@
   },
   "extensions.ignoreRecommendations": true,
   "editor.tabSize": 2,
-  "editor.fontSize": 16,
+  "editor.fontSize": 22,
+  "terminal.integrated.fontSize": 22,
+  "debug.console.fontSize": 22,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt"
