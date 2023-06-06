@@ -9,7 +9,8 @@
     "fiveserver*": true,
 		"_muell": false,
 		"**/__pycache__": true,
-		"**/__init__.py": true
+		"**/__init__.py": true,
+    ".venv": true,
 
   },
   "extensions.ignoreRecommendations": true,
