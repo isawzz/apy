@@ -1,8 +1,17 @@
-
+#%%
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
+#%%
+plt.close('all')
+arr = np.random.randint(10)
+print(arr)
+#ts = pd.Series()
+
+#%%
 a = 23
+
 
 def f1(a,b):
   return a+b
