@@ -5,7 +5,7 @@ import pandas as pd
 
 #%%
 plt.close('all')
-arr = np.random.randint(10)
+arr=np.random.randint(10)
 print(arr)
 #ts = pd.Series()
 
