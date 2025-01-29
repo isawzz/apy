@@ -1,6 +1,41 @@
 ______ github
 ::set correct remote branch: git branch --set-upstream-to=origin/master master
 
+______ **Python List:**
+1. `append()`: Add an element to the end of the list.
+2. `extend()`: Add elements from another iterable to the end of the list.
+3. `insert()`: Insert an element at a specific index.
+4. `remove()`: Remove the first occurrence of a specified element.
+5. `pop()`: Remove and return an element at a specific index.
+6. `index()`: Find the index of the first occurrence of a specified element.
+7. `count()`: Count the number of occurrences of a specified element.
+8. `sort()`: Sort the list in ascending order.
+9. `reverse()`: Reverse the order of elements in the list.
+10. `len()`: Get the number of elements in the list.
+
+fea = [col for i, col in enumerate(housing.columns) if i != ilabel]; fea
+==
+fea=[]
+for i in range(len(housing.columns)): 
+  if i != ilabel: fea.append(housing.columns[i])
+fea
+
+______ **Pandas DataFrame:**
+1. `head()`: View the first few rows of the DataFrame.
+2. `tail()`: View the last few rows of the DataFrame.
+3. `shape`: Get the dimensions (rows, columns) of the DataFrame.
+4. `columns`: Get the column names of the DataFrame.
+5. `index`: Get the row index labels of the DataFrame.
+6. `info()`: Display a concise summary of the DataFrame, including data types and non-null counts.
+7. `describe()`: Generate descriptive statistics of the DataFrame.
+8. `loc[]`: Access a group of rows and columns by label(s).
+9. `iloc[]`: Access a group of rows and columns by integer location(s).
+10. `isin()`: Check whether values are present in a DataFrame.
+11. `drop()`: Remove rows or columns from the DataFrame.
+12. `fillna()`: Fill missing values in the DataFrame.
+13. `merge()`: Merge two DataFrames on a common column.
+14. `groupby()`: Group the DataFrame using a column or multiple columns.
+15. `pivot_table()`: Create a spreadsheet-style pivot table.
 
 
 
