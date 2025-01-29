@@ -1,3 +1,5 @@
+___ w3intro: https://www.w3schools.com/python/python_ml_standard_deviation.asp
+
 ______ github
 ::set correct remote branch: git branch --set-upstream-to=origin/master master
 
